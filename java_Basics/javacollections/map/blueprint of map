@@ -15,7 +15,7 @@ Map<String, String> map = new HashMap<>();
 
 
 
-2. What is a HashMap?
+2. What is a HashMap?  
 
 
 
@@ -40,6 +40,13 @@ Map<String, String> map = new HashMap<>();
 | Keys | ✅ Unique |
 | Nulls | ✅ Same as HashMap |
 | Speed | Slightly slower than HashMap, but keeps order
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////
 
 
 
