@@ -1,0 +1,145 @@
+ 1. What is Set?
+Set is a Java interface that does not allow duplicates.
+
+It’s part of the Collection framework.
+
+Implementations: HashSet, LinkedHashSet, TreeSet, etc.
+
+
+Set<String> names = new HashSet<>();
+
+
+| Scenario                                 | Use              |
+|------------------------------------------|------------------|
+| Need only **unique** values              | `HashSet` or `LinkedHashSet` |
+| Don't care about order                   | `HashSet`        |
+| Want to maintain insertion order         | `LinkedHashSet`  |
+| Need fast lookups, no duplicates         | Both             |
+
+///////////////////////////////////////////////////////////////////////////
+
+ What is HashSet?
+
+| Feature | Description |
+|---------|-------------|
+| Structure | **Hash table** (internally) |
+| Order | ❌ **No guaranteed order** |
+| Duplicates | ❌ **Not allowed** |
+| Null values | ✅ One null allowed |
+| Speed | ✅ Very fast for add/search/remove |
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+What is LinkedHashSet?
+
+
+| Feature | Description |
+|---------|-------------|
+| Structure | **Linked list + Hash table** |
+| Order | ✅ **Maintains insertion order** |
+| Duplicates | ❌ **Not allowed** |
+| Null values | ✅ One null allowed |
+| Speed | Slightly slower than `HashSet`, but ordered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+What is a Map?
+A Map is an interface in Java.
+
+It stores key-value pairs (like a dictionary).
+
+Each key must be unique.
+
+Implementations: HashMap, LinkedHashMap, TreeMap, etc.
+
+
+Map<String, String> map = new HashMap<>();
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+2. What is a HashMap?
+
+
+
+| Feature | Description |
+|---------|-------------|
+| Structure | Uses a **hash table** internally |
+| Order | ❌ **No order** maintained |
+| Keys | ✅ Unique only |
+| Nulls | ✅ One null key allowed, many null values allowed |
+| Performance | ✅ Very fast for add/get/remove |
+
+
+////////////////////////////////////////////////////////////////////////
+
+
+ 3. What is a LinkedHashMap?
+
+| Feature | Description |
+|---------|-------------|
+| Structure | Combines **Linked List + Hash Table** |
+| Order | ✅ Maintains **insertion order** |
+| Keys | ✅ Unique |
+| Nulls | ✅ Same as HashMap |
+| Speed | Slightly slower than HashMap, but keeps order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
